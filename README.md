@@ -1,6 +1,6 @@
 # Clipprompt README
 
-This is the README for the Clipprompt extension. Clipprompt is a Visual Studio Code extension that allows users to quickly add code selections to a prompt string and copy the content of that string to the clipboard.
+Clipprompt is a Visual Studio Code extension that allows users to quickly add code selections to a prompt string and copy the content of that string to the clipboard.
 
 ### Why? What is the problem we are solving here?
 For generating effective prompts, it's crucial to supply relevant context.
