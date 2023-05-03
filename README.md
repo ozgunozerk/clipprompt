@@ -18,7 +18,7 @@ Clipprompt adds two commands to the right-click context menu in the editor:
 1. **Add Selection to Prompt**: Adds the selected text to the prompt string.
 2. **Copy & Clear the Prompt**: Copies the content of the prompt string to the clipboard and clears the prompt string.
 
-![Clipprompt in action](images/clipprompt-demo.gif)
+![Clipprompt in action](https://github.com/ozgunozerk/clipprompt/blob/main/images/clipprompt-demo.gif)
 
 > Tip: The prompt string is not persisted across sessions or extension reloads. It is stored in memory and will be lost when the extension is deactivated or reloaded.
 

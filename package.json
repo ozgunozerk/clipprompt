@@ -3,6 +3,7 @@
   "displayName": "ClipPrompt",
   "description": "have snippets of your code in a single prompt, without manual copy-pasting",
   "version": "0.0.1",
+  "icon": "https://github.com/ozgunozerk/clipprompt/blob/main/icon.png",
   "engines": {
     "vscode": "^1.77.0"
   },
