@@ -1,6 +1,6 @@
-# Clipprompt README
+# ClipPrompt README
 
-Clipprompt is a Visual Studio Code extension that allows users to quickly add code selections to a prompt string and copy the content of that string to the clipboard.
+ClipPrompt is a Visual Studio Code extension that allows users to quickly add code selections to a prompt string and copy the content of that string to the clipboard.
 
 ### Why? What is the problem we are solving here?
 For generating effective prompts, it's crucial to supply relevant context.
@@ -15,10 +15,12 @@ This approach enhances the quality of your prompts and helps you conserve valuab
 
 Clipprompt adds two commands to the right-click context menu in the editor:
 
-1. **Add Selection to Prompt**: Adds the selected text to the prompt string.
-2. **Copy & Clear the Prompt**: Copies the content of the prompt string to the clipboard and clears the prompt string.
+1. **Add Selection to Prompt (Default Keybinding: `Ctrl+Shift+A` on Windows/Linux, `Cmd+Shift+A` on macOS)**: Adds the selected text to the prompt string.
+2. **Copy & Clear the Prompt (Default Keybinding: `Ctrl+Shift+C` on Windows/Linux, `Cmd+Shift+C` on macOS)**: Copies the content of the prompt string to the clipboard and clears the prompt string.
 
 ![Clipprompt in action](images/clipprompt-demo.gif)
+
+These commands also have default keybindings, which you can customize in your Keyboard Shortcuts settings (`File > Preferences > Keyboard Shortcuts` or `Ctrl+K Ctrl+S`).
 
 > Tip: The prompt string is not persisted across sessions or extension reloads. It is stored in memory and will be lost when the extension is deactivated or reloaded.
 
@@ -36,25 +38,11 @@ There are no known issues at the moment. If you encounter any problems, please o
 
 Initial release of Clipprompt.
 
+### 1.1.0
+
+Added default keybindings for commands, which users can customize.
+
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
