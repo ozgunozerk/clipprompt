@@ -2,7 +2,7 @@
   "name": "clipprompt",
   "displayName": "ClipPrompt",
   "description": "have snippets of your code in a single prompt, without manual copy-pasting",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "icon": "icon.png",
   "repository": {
     "type": "git",
