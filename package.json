@@ -29,6 +29,22 @@
         "title": "Copy & Clear the Prompt"
       }
     ],
+    "keybindings": [
+      {
+        "command": "extension.addSelectionToPrompt",
+        "key": "ctrl+shift+a",
+        "mac": "cmd+shift+a",
+        "when": "editorTextFocus",
+        "title": "Add Selection to Prompt"
+      },
+      {
+        "command": "extension.copyAndClearPrompt",
+        "key": "ctrl+shift+c",
+        "mac": "cmd+shift+c",
+        "when": "editorTextFocus",
+        "title": "Copy & Clear the Prompt"
+      }
+    ],
     "menus": {
       "editor/context": [
         {
